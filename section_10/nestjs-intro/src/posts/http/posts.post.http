@@ -1,0 +1,18 @@
+POST http://localhost:3000/posts/
+Content-Type: application/json
+
+{
+		"title": "My third post",
+		"postType": "post",
+		"slug": "my-third-post",
+		"status": "draft",
+		"content": "This is the content of my third post.",
+		"schema": "{\"type\":\"object\",\"properties\":{\"body\":{\"type\":\"string\"}},\"required\":[\"body\"]}",
+		"featuredImageUrl": "http://example.com/image.jpg",
+		"publishOn": "2024-06-15T10:00:00Z",
+		"tags": ["b4dca8f7-ce74-499e-8989-b85a5f84113e", "4b2f1573-efb3-4646-b685-b2a0ae7f499c"],
+		"metaOptions": {
+			"metaValue": "{\"sidebarEnabled\": true, \"footerActive\": true}"
+		},
+		"authorId": "0bca1b5f-792e-424d-9093-90a398f70324"
+}

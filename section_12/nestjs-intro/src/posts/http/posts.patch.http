@@ -1,0 +1,8 @@
+PATCH http://localhost:3000/posts
+Content-Type: application/json
+
+{
+		"id": "80e32a5b-5912-4e7d-9118-6d81a6a64b91",
+		"postType": "story",
+		"tags": ["b4dca8f7-ce74-499e-8989-b85a5f84113e","fed91a14-684a-448c-a6d4-06a763f7a69a"]
+}

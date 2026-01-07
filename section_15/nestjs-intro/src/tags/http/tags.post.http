@@ -1,0 +1,9 @@
+POST http://localhost:3000/tags/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1MjA0Nzk1Zi1iMGQwLTQxZGUtOWI5NS03N2JlZjE4MmFmMmYiLCJlbWFpbCI6ImphbmVAZG9lLmNvbSIsImlhdCI6MTc2NzY5ODEzOSwiZXhwIjoxNzY3NzAxNzM5LCJhdWQiOiJsb2NhbGhvc3Q6MzAwMCIsImlzcyI6ImxvY2FsaG9zdDozMDAwIn0.ew9wK8Ogefl5U4NzGgKTdu8cV7FkvjYjCL4UrXpuvgI
+
+{
+	"name": "typescript",
+	"slug": "typescript",
+	"description": "All about TypeScript"
+}

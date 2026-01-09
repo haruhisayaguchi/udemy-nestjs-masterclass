@@ -1,0 +1,2 @@
+DELETE http://localhost:3000/posts
+?id=655b0f9a-1a4b-46f4-b962-5ff502130e88

@@ -1,0 +1,23 @@
+{{
+	const publishOn = new Date();
+	exports.publishOn = publishOn.toISOString();
+}}
+
+POST http://localhost:3000/posts/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1MjA0Nzk1Zi1iMGQwLTQxZGUtOWI5NS03N2JlZjE4MmFmMmYiLCJlbWFpbCI6ImphbmVAZG9lLmNvbSIsImlhdCI6MTc2NzY5ODEzOSwiZXhwIjoxNzY3NzAxNzM5LCJhdWQiOiJsb2NhbGhvc3Q6MzAwMCIsImlzcyI6ImxvY2FsaG9zdDozMDAwIn0.ew9wK8Ogefl5U4NzGgKTdu8cV7FkvjYjCL4UrXpuvgI
+
+{
+		"title": "My twelfth post",
+		"postType": "post",
+		"slug": "my-twelfth-post",
+		"status": "draft",
+		"content": "This is the content of my twelfth post.",
+		"schema": "{\"type\":\"object\",\"properties\":{\"body\":{\"type\":\"string\"}},\"required\":[\"body\"]}",
+		"featuredImageUrl": "http://example.com/image.jpg",
+		"publishOn": "{{publishOn}}",
+		"tags": ["b4dca8f7-ce74-499e-8989-b85a5f84113e", "4233c55e-fcf6-409f-9c8e-e33a0552c8ab"],
+		"metaOptions": {
+			"metaValue": "{\"sidebarEnabled\": true, \"footerActive\": true}"
+		}
+}

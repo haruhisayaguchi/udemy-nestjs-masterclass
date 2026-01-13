@@ -1,0 +1,6 @@
+DELETE http://localhost:3000/tags/soft/
+?id=fed91a14-684a-448c-a6d4-06a763f7a69a
+
+
+DELETE http://localhost:3000/tags/
+?id=4b2f1573-efb3-4646-b685-b2a0ae7f499c

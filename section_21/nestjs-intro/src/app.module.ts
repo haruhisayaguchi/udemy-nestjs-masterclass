@@ -13,8 +13,8 @@ import { TagsModule } from './tags/tags.module';
     PostsModule,
     AuthModule,
     MongooseModule.forRoot(
-      'mongodb+srv://nestjs-intro:4NJ3fJrtbZYc1Y9V4RsX6cLEsGSwWlGq@nestjs-intro.wwqbzji.mongodb.net/?appName=nestjs-intro',
-      { dbName: 'nestjs-intro' },
+      '',
+      { dbName: '' },
     ),
     TagsModule,
   ],
